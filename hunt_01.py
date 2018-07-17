@@ -7,9 +7,11 @@ def check_repeated(inp):
 					out.append(inp[i])
 	print(out)
 	
+
 n=int(raw_input())
 inp=[]
 for x in range(n):
 	inp.append(int(raw_input()))
 check_repeated(inp)
+	
 
