@@ -13,7 +13,10 @@ def check (li):
 
 n = int(raw_input())
 li = []
-for x in range(0,n):
-	li.append(int(raw_input()))
+if n>0:
+	for x in range(0,n):
+		li.append(int(raw_input()))
 
-print(check(li))
+	print(check(li))
+else:
+	print("invalid")
