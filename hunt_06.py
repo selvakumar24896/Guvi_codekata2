@@ -1,9 +1,5 @@
 def check (li):
 	rp=None
-	p1=0
-	p2=0
-	p3=None
-	count=0
 	for x in range(0,len(li)-1):
 		for y in range(x+1,len(li)):
 			if li[x]==li[y]:
