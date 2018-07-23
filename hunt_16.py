@@ -16,3 +16,4 @@ for i in range(1,len(li)):
 
 out=sorted(out)
 print out[:3]
+
