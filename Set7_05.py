@@ -20,3 +20,4 @@ if actual_bill_for_anna==b:
 	print "Bon Appetit"
 else:
 	print shared_bill-actual_bill_for_anna
+	
