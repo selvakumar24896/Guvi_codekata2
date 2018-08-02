@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Hunt_13 {
-
     /**
      * @param args the command line arguments
      */
