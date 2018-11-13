@@ -1,13 +1,7 @@
 package set7_01;
-
-/**
- *
- * @author Local user
- */
 import java.util.Scanner;
 
 public class Set7_01 {
-
     public static void main(String[] args) {
         Scanner val = new Scanner(System.in);
         String inp1 = val.next();
@@ -24,7 +18,7 @@ public class Set7_01 {
                 }
             }
         } else {
-            System.out.print("GIVE INPUTS WITH SAME LENGTH");
+            System.out.print("GIVE INPUTS IN SAME LENGTH");
         }
         for (int i = 0; i < ar.length; i++) {
             System.out.print((char) (ar[i] + 96));
