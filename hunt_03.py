@@ -1,6 +1,3 @@
-
-
-
 n=int(raw_input ())
 li = []
 out = []
