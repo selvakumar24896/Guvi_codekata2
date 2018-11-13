@@ -1,16 +1,8 @@
 package pro_04;
 
 import java.util.Scanner;
-
-/**
- *
- * @author Local user
- */
 public class Pro_04 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         Scanner val = new Scanner(System.in);
         String inp1 = val.next();
