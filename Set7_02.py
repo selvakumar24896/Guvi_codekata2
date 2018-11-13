@@ -1,14 +1,19 @@
 def check(inp):
 	rev=''
+	
 	for x in range(len(inp)-1,-1,-1):
 		rev+=inp[x]
 	if rev==inp:
 		return 0
 
+	
+	
 inp=raw_input()
 temp=inp
 i=0
 dummy=None
+
+
 
 while i<len(temp)-1:
 	res=check(temp[i:len(temp)]);
