@@ -8,6 +8,7 @@ def gcd(l,r):
 	if l==0 or r==0:
 		return 0
 	 
+		
 n=input()
 q=input()
 li=[]
@@ -17,5 +18,8 @@ for x in range(0,n):
 for y in range(0,q*2):
 	qli.append(input())
 
+	
 for i in range(0,q*2,2):
 	print gcd(li[qli[i]-1],li[qli[i+1]-1])
+	
+	
