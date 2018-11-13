@@ -1,4 +1,3 @@
-
 def check(li,n):
 	count=0
 	for i in range(0,len(li)):
@@ -9,8 +8,11 @@ def check(li,n):
 
 n=int(raw_input ())
 li = []
+
 for x in range (0,n):
 	li.append(int(raw_input ()))
 
 for x in range(0,n):
 	check(li,x)
+	
+	
