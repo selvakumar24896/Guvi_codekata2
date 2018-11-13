@@ -1,15 +1,15 @@
-
 n=input()
 m=input()
+
 if m>0 and n>0:
     a=[]
     b=[]
     res=[]
+    
     for x in range(0,n):
         a.append(input())
     for y in range(0,m):
         b.append(input())
-
 
     for y in range(0,m):
         if b[y] in a:
@@ -20,7 +20,7 @@ if m>0 and n>0:
     else:
         print "NO"
 else:
-    print "invalid input"
+    print "INVALID INPUT"
 
         
     
