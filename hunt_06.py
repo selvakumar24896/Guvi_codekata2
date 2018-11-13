@@ -1,3 +1,4 @@
+
 def check (li):
 	rp=None
 	for x in range(0,len(li)-1):
@@ -6,14 +7,13 @@ def check (li):
 				rp=li[x]
 				
 	if rp is None:
-		return "unique"
+		return "UNIQUE"
 	else:
 		return rp
 
 n = int(raw_input())
 li = []
 if n>0:
-
 	for x in range(0,n):
 		li.append(int(raw_input()))
 
