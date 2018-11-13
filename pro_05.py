@@ -6,6 +6,7 @@ li2=[]
 sum1=0
 sum2=0
 count=0
+
 while sum1<n and sum2<n:
 	li1.append(a)
 	li2.append(a)
@@ -18,7 +19,11 @@ while sum1<n and sum2<n:
 	sum2+=li2[count]
 	count+=1
 	
+	
 if sum1==n and sum2==n:
 	print "yes"
 else:
 	print"No"
+	
+	
+	
