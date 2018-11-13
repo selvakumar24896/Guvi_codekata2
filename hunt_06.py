@@ -10,8 +10,6 @@ def check (li):
 	else:
 		return rp
 
-
-
 n = int(raw_input())
 li = []
 if n>0:
@@ -22,3 +20,5 @@ if n>0:
 	print(check(li))
 else:
 	print("invalid")
+	
+	
