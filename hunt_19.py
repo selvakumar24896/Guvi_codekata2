@@ -1,5 +1,6 @@
 import copy
 
+
 def get(n):
     vl=[]
     for i in range(0,n):
@@ -15,10 +16,12 @@ def check(l1,l2):
 	return res
             
         
-a=input()
-n=input()
 li=[]
 out=''
+a=input()
+n=input()
+
+
 for x in range(0,a):
     li.append(get(n))
 
