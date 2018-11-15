@@ -5,15 +5,17 @@ def check(li,k):
 n=input()
 li=[]
 
-if n>0:
-    
+
+if n>0:    
     k=input()
     if k<=n:
         for x in range(0,n):
             li.append(input())
         print check(li,k)
     else:
-        print 'invalid position'
+        print 'Invalid position'
 else:
-    print 'invalid input'
+    print 'Invalid input'
+        
+
         
